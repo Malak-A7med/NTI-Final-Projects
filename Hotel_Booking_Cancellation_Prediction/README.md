@@ -1,5 +1,13 @@
 # 🏨 Hotel Booking Cancellation Predictor
 
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+🔗 **Streamlit App:** https://hotelbookingcancellationprediction2772026.streamlit.app/
+
+---
+
 ## Overview
 
 Hotel Booking Cancellation Predictor is a Machine Learning web application that predicts whether a hotel reservation is likely to be canceled based on booking information provided by the user.
@@ -23,10 +31,13 @@ The application is powered by a trained **XGBoost Classifier** and deployed usin
 
 The model was developed following a complete machine learning workflow:
 
+- Data Understanding
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Data Preprocessing
+- Feature Engineering:
+  - Created new meaningful features to improve model performance.
+- Data Visualization
+- Data Preprocessing:
   - Standard Scaling
   - One-Hot Encoding
 - Model Training
@@ -62,14 +73,14 @@ The prediction is based on several booking attributes, including:
 
 | Metric | Score |
 |---------|------:|
-| Training Accuracy | 92.0% |
+| Training Accuracy | 92% |
 | Test Accuracy | 91% |
 | Precision | 92% |
 | Recall | 95% |
 | F1-Score | 93% |
 | ROC-AUC | 96.2% |
 
-The model achieved strong predictive performance while maintaining good generalization between the training and testing datasets.
+The model achieved strong predictive performance while maintaining good generalization between training and testing datasets.
 
 ---
 
@@ -82,22 +93,31 @@ The model achieved strong predictive performance while maintaining good generali
 - Pandas
 - NumPy
 - Plotly
+- Joblib
+
 
 ---
+## Model Development and Comparison
 
-## Project Structure
+13 classification models were trained and compared, including:
 
-```
-Hotel_Cancellation_Predictor/
-│
-├── app.py
-├── Hotel_Booking_Prediction.ipynb
-├── hotel_model.pkl
-├── preprocessor.pkl
-├── label_encoder.pkl
-├── requirements.txt
-└── README.md
-```
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Extra Trees
+- SVM
+- KNN
+- Naive Bayes
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- CatBoost
+- AdaBoost
+- HistGradient Boosting
+
+Models were evaluated using Accuracy, Precision, Recall, F1-Score, Balanced Accuracy, and ROC-AUC.
+
+**XGBoost Classifier** was selected as the final model due to its best overall performance.
 
 ---
 
@@ -105,10 +125,19 @@ Hotel_Cancellation_Predictor/
 
 The application allows users to enter booking information through an interactive interface and instantly receive:
 
-- Booking cancellation prediction
-- Cancellation probability
-- Interactive dashboard
-- Booking summary
+- Booking cancellation prediction.
+- Cancellation probability.
+- Interactive probability visualization.
+- Booking summary.
+
+---
+
+## Deployment
+
+The application was deployed using **Streamlit Cloud**.
+
+🔗 **Live Application:**  
+https://hotelbookingcancellationprediction2772026.streamlit.app/
 
 ---
 
