@@ -4,7 +4,7 @@
 
 Try the deployed application here:
 
-🔗 **Streamlit App:** https://hotelbookingcancellationprediction2772026.streamlit.app/
+🔗 **Streamlit App:** [https://hotelbookingcancellationprediction2772026.streamlit.app/](https://aiprojects-ak3mwwdjdxqvsviftkjmrx.streamlit.app/)
 
 ---
 
@@ -137,7 +137,7 @@ The application allows users to enter booking information through an interactive
 The application was deployed using **Streamlit Cloud**.
 
 🔗 **Live Application:**  
-https://hotelbookingcancellationprediction2772026.streamlit.app/
+[https://hotelbookingcancellationprediction2772026.streamlit.app/](https://aiprojects-ak3mwwdjdxqvsviftkjmrx.streamlit.app/)
 
 ---
 
