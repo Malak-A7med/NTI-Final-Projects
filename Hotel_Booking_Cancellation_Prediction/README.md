@@ -4,7 +4,7 @@
 
 Try the deployed application here:
 
-🔗 **Streamlit App:** [https://hotelbookingcancellationprediction2772026.streamlit.app/](https://aiprojects-ak3mwwdjdxqvsviftkjmrx.streamlit.app/)
+🔗 **Streamlit App:** (https://aiprojects-ak3mwwdjdxqvsviftkjmrx.streamlit.app/)
 
 ---
 
